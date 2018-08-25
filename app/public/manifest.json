@@ -1,0 +1,15 @@
+{
+  "short_name": "SBR Training",
+  "name": "SBR Training",
+  "icons": [
+    {
+      "src": "logo_200.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#03a9f4",
+  "background_color": "#03a9f4"
+}

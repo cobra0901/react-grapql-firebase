@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "8"
+sudo: false
+
+branches:
+  only:
+  - master
+
+before_install: cd app
+
+cache:
+  yarn: true
+  directories:
+    - "node_modules"
+
+script:
+  - yarn run test
+  - yarn run build
